@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap"); 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+position: relative;
+max-width: 1440px;
+height: caac(100vh-50px);
+background: #FFFFFF;
+}
+
+.header{
+font-family: Inconsolata;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-align: left;
+margin: 40px 77px;
+text-transform: uppercase;
+word-spacing: 200%;
+}
+
+.main{
+  display: flex;
+  margin: 0px auto;
+}
+
+#img{
+max-height: 447.4263916015625px;
+max-width: 539.2236938476562px;
+border-radius: 0px;
+margin:0 77px;
+}
+
+.txts{
+  align-self: center;
+}
+
+.head{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.txt{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.btn{
+  height: 68px;
+  width: 216px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 68px;
+  word-spacing: 8px;
+}
+
+footer{
+  margin-top: 60px;
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #BDBDBD;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 17px;
+
+/* font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center; */
+/* font-size: 14px;
+c
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center; */
+
+}
+#id{
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media screen and (max-width:500px) {
+  .header{
+    margin: 20px 20px;
+    
+  }
+    
+  body{
+    max-width: 475px;
+  }
+  .main{
+    display:block;
+    margin: 30px auto;
+    max-width: 300px;
+  }
+  
+  #img{
+    max-height: 400px;
+    width: 300px;
+    margin: 0;
+  }
+  .head{
+    font-family: 'Space Grotesk', sans-serif;
+    word-spacing: 10px;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+    
+  .txt{
+    font-size: 18px;
+    line-height: 25px;
+    word-spacing: 10px;
+    letter-spacing: -0.035em;
+    margin-bottom: 30px;  
+  }
+  .btn{
+    height: 58px;
+    width: 216px;
+    line-height: 58px;
+    margin-bottom: 50px;
+  }
+  footer{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-stretch: ultra-expanded;
+    word-spacing: 8px;
+  }      
+}
